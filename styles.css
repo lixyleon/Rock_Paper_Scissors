@@ -1,0 +1,134 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;700;800&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo',sans-serif;
+  }
+
+  :root{
+    --clr-gold:#DCC48E;
+    --clr-beige: #d9e4a7;
+    --clr-purple: #27233A;
+  }
+
+  body{
+    background-color: var(--clr-purple);
+    color: var(--clr-beige);
+  }
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: var(--clr-beige);
+    color: var(--clr-purple);
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+
+  }
+
+  .instrucciones{
+    margin-bottom: 2rem;
+  }
+
+  .marcador{
+    background-color: var(--clr-gold);
+    position: relative;
+    padding: 1rem 2rem;
+    border-radius:1rem;
+    display: flex;
+    align-items: center;
+    color: var(--clr-purple);
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+
+  .marcador .nombre{
+    position: absolute;
+    color: white;
+    background-color: var(--clr-purple);
+    line-height: 1;
+    padding: 1rem;
+    border: 2px solid var(--clr-gold);
+  }
+
+  .marcador .nombre-jugador{
+    right: 85%;
+  }
+
+  .marcador .nombre-computadora{
+    left: 85%;
+  }
+  
+  .marcador .puntos{
+    font-size: 2rem;
+  }
+
+  .elige-tu-arma{
+    margin-bottom: 2rem;
+  }
+
+  .elige-tu-arma h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+  }
+
+  .armas{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+  }
+
+  .arma{
+    font-size: 1rem;
+    background-color: var(--clr-beige);
+    border:none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .mensaje{
+    margin-bottom: 2rem;
+    line-height: 1.8;
+  }
+
+  .mensaje .eleccion{
+    color:var(--clr-purple);
+    background-color: var(--clr-gold);
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  #gana-punto{
+    margin: 1rem;
+  }
+
+  .btn{
+    border: 0;
+    line-height: 1;
+    background-color: var(--clr-beige);
+    color: var(--clr-purple);
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+  }
+
+  .disabled{
+    display:none;
+  }
