@@ -83,7 +83,7 @@ function iniciarTurno(e){
     mensaje.classList.add("disabled");
 
     puntosUsuario = 0;
-    puntosUsuario = 0;
+    puntosPC = 0;
 
     contenedorPuntosUsuario.innerText = puntosUsuario;
     contenedorPuntosPC.innerText = puntosPC;
