@@ -9,7 +9,7 @@ Rock, paper, scissors game made with javascript
 
 ## Live Demo
 
-[Live Demo Link]([https://livedemo.com](https://lixyleon.github.io/Rock_Paper_Scissors/)
+[Live Demo Link](https://lixyleon.github.io/Rock_Paper_Scissors/)
 
 
 ## Authors
