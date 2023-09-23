@@ -1,5 +1,6 @@
 # Rock_Paper_Scissors
-Rock, paper, scissors game made with javascript
+Rock, paper, scissors game made with javascript.
+The exercise was carried out following the tutorial developed by [carpicoder](https://github.com/carpicoder)
 
 ## Built With
 
